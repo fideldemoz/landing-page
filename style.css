@@ -1,0 +1,193 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, "sans-serif";
+}
+.leftside {
+background-color: gray;
+display: inline-block;
+height: 94%;
+width: 30%;
+position: fixed;
+left: 0;
+top: 0;
+}
+.rightside {
+background-color: yellow;
+display: inline-block;
+width: 70%;
+height: 94%;
+margin: 0;
+position: absolute;
+top: 0;
+right: 0;
+}
+.img{
+width: 100px;
+height: 100px;
+border-radius: 360px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 12%;
+}
+.name, .bio{
+text-align: center;
+color: white;
+}
+.name{
+font-weight: 300;
+font-size: 44px;
+line-height: 2;
+}
+.bio{
+font-style: italic;
+font-weight: 500;
+line-height: 2;
+}
+.nav{
+display: block;
+/*width: 60%;
+height: 40px;*/
+margin-top: 30px;
+margin-right: 18%;
+margin-left: 18%;
+/*background-color: whitesmoke;*/
+}
+.nav li{
+display: inline-block;
+margin-top: 2%;
+margin-bottom: 2%;
+/*background-color: red;*/
+width: 100%;
+height: 30px;
+text-align: right;
+font-size: 24px;
+}
+.nav li a{
+text-decoration: none;
+color: yellow;
+}
+.nav li:hover /*, .nav li a:hover*/{
+background-color: blueviolet;
+border-bottom-width: thick;
+border-bottom-color: whitesmoke;
+border-bottom-style: solid;
+}
+/* HOME PAGE*/
+.intro{
+	font-size: 34px;
+	text-align: center;
+	line-height: 1.7;
+	font-weight: lighter;
+	margin-top: 100px;
+	color: grey;
+	letter-spacing: 12pt;
+	animation-name: welcome;
+	animation-duration: 1s;
+}
+@keyframes welcome {
+	from{  letter-spacing:50pt;}
+	/*to{letter-spacing: 12pt;}*/
+}
+.whoami{
+	font-size: 22px;
+	text-align: left;;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.moreaboutme{
+	font-size: 14pt;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 60px;
+}
+.moretwo{
+	font-size: 14pt;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: relative;
+
+}
+.special{
+position: relative;}
+.cta{
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 86%;
+	height: 60px;
+	background-color: blueviolet;
+	padding: 0 2% 0 2%;
+	border-radius: 5px;
+	position: absolute;
+	top: 20px;
+}
+.cta p{
+	display: inline-block;
+	width: 80%;
+	font-size: 13pt;
+	color: white;
+}
+.cta button{
+	display: inline-block;
+	width: 20%;
+	position: relative;
+	right: 0;
+	height: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	border-width: 0;
+}
+.cta button,.cta button a{
+	font-size: 13pt;
+	color: blueviolet;
+	text-decoration: none;
+	font-weight: bolder;
+	background-color: yellow;
+}
+.cta button:hover, .cta button a:hover{
+	font-size: 14pt;
+	color: yellow;
+	text-decoration: none;
+	font-weight: bolder;
+	background-color: gray;
+}
+
+/*About page*/
+div #about{
+background-color: purple;
+width: 100%;
+height: 100%;
+font-weight: bolder;}
+
+/*About page*/
+#skills{
+background-color: yellowgreen;}
+
+/*About page*/
+#socials{
+background-color: green;}
+.footer{
+display: inline-block;
+width: 100%;
+height: 6%;
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: gray;
+}
+.footer p{
+	text-align: center;
+	font-weight: 100;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	margin-top: 10px;
+}
